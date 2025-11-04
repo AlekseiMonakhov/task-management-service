@@ -59,19 +59,6 @@ export class Task {
     );
   }
 
-  complete(): Task {
-    if (this.status === TaskStatus.COMPLETED) {
-      return this;
-    }
-    return this.update(undefined, undefined, undefined, TaskStatus.COMPLETED);
-  }
-
-  isOverdue(): boolean {
-    if (!this.dueDate) {
-      return false;
-    }
-    return this.dueDate < new Date() && this.status !== TaskStatus.COMPLETED;
-  }
 
   isDueWithin24Hours(): boolean {
     if (!this.dueDate) {
