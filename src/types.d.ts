@@ -8,10 +8,6 @@ declare global {
       NODE_ENV?: string;
     }
   }
-  
-  var process: {
-    env: NodeJS.ProcessEnv;
-  };
 }
 
 export {};

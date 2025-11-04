@@ -26,6 +26,9 @@ Thumbs.db
 *.db
 *.sqlite
 
+# Keep migrations folder - it's needed for deployment
+!drizzle/
+
 # Docker
 docker-compose.override.yml
 

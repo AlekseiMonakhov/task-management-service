@@ -1,5 +1,4 @@
-import { Task, ITaskRepository, InvalidTaskDataError } from "@domain/index.js";
-import { INotificationService } from "../services/INotificationService.js";
+import { Task, ITaskRepository, InvalidTaskDataError, INotificationService } from "@domain/index.js";
 
 export class CreateTaskUseCase {
   constructor(

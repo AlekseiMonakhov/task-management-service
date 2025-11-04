@@ -10,5 +10,3 @@ export type { TaskResponseDTO } from "./dto/TaskResponseDTO.js";
 
 export { TaskMapper } from "./mappers/TaskMapper.js";
 
-export type { INotificationService } from "./services/INotificationService.js";
-

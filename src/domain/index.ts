@@ -2,6 +2,8 @@ export { Task, TaskStatus } from "./entities/Task.js";
 
 export type { ITaskRepository } from "./repositories/ITaskRepository.js";
 
+export type { INotificationService } from "./services/INotificationService.js";
+
 export {
   DomainError,
   TaskNotFoundError,

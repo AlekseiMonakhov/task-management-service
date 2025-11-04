@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "bun run src/index.ts",
     "build": "bun build src/index.ts --outdir ./dist --target bun",
-    "start": "bun run dist/index.js"   
+    "start": "bun run dist/index.js",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "bun run src/infrastructure/database/migrate.ts"
   },
   "author": "",
   "license": "MIT",
